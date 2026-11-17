@@ -1,30 +1,26 @@
-# Starship S24/B7: print and assembly guide
+# Starship S24/B7 print and assembly guide
 
-This is a 38-inch model split into parts for the Markforged X7. The design is a work in progress: it has not been sliced in Eiger or physically assembled. Joint retention, hardware, support removal and stand stability still need testing.
+This model is about 38 inches tall and is split into parts for the Markforged X7. The design has not been sliced in Eiger or physically assembled. The joints and stand have not been validated to support the completed model.
 
 ## Printing
 
-1. Import the STL files into Eiger in millimeters. They retain assembly coordinates, so place and orient each part on the build plate before slicing.
-2. Check each part with its raft and supports against your printer's build volume. Markforged lists 330 × 270 × 200 mm for the X7 Gen 2; confirm the limits and settings for your machine in Eiger.
-3. Use Onyx as the base material. Continuous fiber is optional reinforcement and requires compatible geometry and Eiger settings; it is not a replacement for the base material.
-4. Start with a small fit test before printing the full stack. Check seams, flap pins and grid-fin pins for the fit your printer produces.
-5. Review the slice layer by layer, particularly inside the joined lower booster and around its engine nozzles. Check that supports can be removed and that small features are retained. Eiger provides the material and time estimate for the selected settings.
-6. Clean the parts and test-fit before bonding. Support contact can affect surface finish; choose orientations with visible surfaces in mind.
+1. Import the STLs into Eiger in millimeters. The files use assembly coordinates, so move and orient each part on the build plate.
+2. Check the slice, raft and supports against your printer's build volume. Markforged lists 330 × 270 × 200 mm for the [X7 Gen 2](https://www-objects.markforged.com/craft/3d_printers_detail/x7/F-PR-3012.pdf).
+3. Select Onyx as the base material. Start with Eiger's Onyx settings and choose the layer height and infill for the part. Continuous fiber is optional.
+4. Make a small pin-and-socket fit coupon, or print one fin and its mating booster section first. Test the fit before printing the full stack.
+5. Check support access around the engine nozzles and inside the joined lower booster. Clean and dry-fit the parts before bonding.
 
-## Assembly overview
+## Assembly
 
-1. Sort the booster, ship, joints, stand and covers using the folders and quantities below. Names containing `black` and `metal` identify the two exterior finishes; they are not separate material requirements.
-2. Arrange the booster sections from bottom to top: `booster_base_and_engines`, `lower_top`, `upper_bottom`, and `upper_top`. The lowest section and engine cluster are one part. The connection to the next section is not yet validated.
-3. Pair each black flap half with its matching metal half. For the aft and forward flaps, the two halves were checked moving together; the method of joining them and retaining them on the body has not been tested.
-4. Dry-fit the ship's lower and upper shell halves, nose halves, flap pairs and ship-engine part. Fit the connector between the ship and booster. The intended wire channels and stops are experimental; wire size, length, retention and installation have not been established.
-5. Dry-fit the four grid fins on the upper booster. Their pins and proposed wire retention are experimental and have not been physically tested.
-6. The stand files include a hub, four legs, a rear post, two front clamps, two shelves and three spacers. How the stand and lower booster are secured together, and whether they can safely support the complete stack, remain unverified.
-
-Do not rely on the assembly as a freestanding display until the joints and stand have been tested. The CAD studies do not establish finished-part strength or fit.
+1. Sort the parts by folder. Filenames with `black` and `metal` identify the intended exterior finish.
+2. Stack the booster sections in this order, from bottom to top: `booster_base_and_engines`, `lower_top`, `upper_bottom`, `upper_top`. The bottom section includes the engine cluster.
+3. Pair each black flap half with its matching metal half and keep the halves together when fitting them. The forward flap design uses an experimental wire path from the base of the nose; the modeled wire must go in before the nose is joined to the upper tank. Actual wire size and retention are not established.
+4. Dry-fit the ship shells, nose, ship engines and booster connector. Use the keys and covers at their matching seams. The three bored booster keys align sections but do not provide axial retention.
+5. Fit the four grid fins to the upper booster. Their retention hardware has not been established. The stand uses a hub, four legs, a rear post, two front clamps, two shelves and three spacers; the stand-to-booster attachment and stability still need to be resolved.
 
 ## Part quantities
 
-Paths are relative to `model/`. The seam-key pair file contains two pieces in one STL.
+Paths are relative to `model/`. `upper_seam_keys_pair.stl` contains two pieces in one file.
 
 | File | Quantity |
 | --- | ---: |
@@ -67,7 +63,3 @@ Paths are relative to `model/`. The seam-key pair file contains two pieces in on
 | `05_covers/cover_metal_upper.stl` | 1 |
 | `05_covers/nose_cover_black.stl` | 1 |
 | `05_covers/nose_cover_metal.stl` | 1 |
-
-## X7 reference
-
-[Markforged X7 product specifications](https://www-objects.markforged.com/craft/3d_printers_detail/x7/F-PR-3012.pdf)
