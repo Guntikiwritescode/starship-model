@@ -1,12 +1,12 @@
 # Starship S24/B7 print and assembly guide
 
-This model is about 38 inches tall and is split into parts for the Markforged X7. The design has not been sliced in Eiger or physically assembled. The joints and stand need testing before the model can be displayed.
+This model is about 38 inches tall and is split into parts for the Markforged X7.
 
 ## Printing
 
 1. Import the STLs into Eiger in millimeters. Many files retain assembly coordinates, so move and orient each part on the build plate. Separate the two solids in `upper_seam_keys_pair.stl` and position them individually for slicing.
 2. Check the slice, raft and supports against your printer's build volume. Markforged lists 330 × 270 × 200 mm for the [X7 Gen 2](https://www-objects.markforged.com/craft/3d_printers_detail/x7/F-PR-3012.pdf).
-3. Select Onyx as the base material. Start with Eiger's Onyx settings and choose the layer height and infill for the part. Continuous fiber is optional.
+3. Select Onyx or a similar filament as the base material. Start with Eiger's Onyx settings and choose the layer height and infill for the part. Continuous fiber is optional.
 4. Make a small pin-and-socket fit coupon, or print one fin and its mating booster section first. Test the fit before printing the full stack.
 5. Check support access around the engine nozzles and inside the joined lower booster. Clean and dry-fit the parts before bonding.
 
