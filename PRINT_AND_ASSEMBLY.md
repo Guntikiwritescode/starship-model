@@ -1,6 +1,6 @@
 # Starship S24/B7 print and assembly guide
 
-This model is about 38 inches tall and is split into parts for the Markforged X7. The design has not been sliced in Eiger or physically assembled. The joints and stand have not been validated to support the completed model.
+This model is about 38 inches tall and is split into parts for the Markforged X7. The design has not been sliced in Eiger or physically assembled. The joints and stand need testing before the model can be displayed.
 
 ## Printing
 
@@ -16,7 +16,7 @@ This model is about 38 inches tall and is split into parts for the Markforged X7
 2. Stack the booster sections in this order, from bottom to top: `booster_base_and_engines`, `lower_top`, `upper_bottom`, `upper_top`. The bottom section includes the engine cluster.
 3. Pair each black flap half with its matching metal half. The halves need to be joined to each other and kept together during fitting; the attachment method has not been tested. The modeled aft-flap wires go in before the upper body section. The forward wires enter through the nose base before the nose joins the upper tank. Wire size and retention are not established.
 4. Dry-fit the ship shells, nose, ship engines and booster connector. Use the keys and covers at their matching seams. The three bored booster keys align sections but do not provide axial retention.
-5. Fit the four grid fins to the upper booster. Their retention hardware has not been established. The stand uses a hub, four legs, a rear post, two front clamps, two shelves and three spacers; the stand-to-booster attachment and stability still need to be resolved.
+5. Fit the four grid fins to the upper booster. Their retention hardware has not been established. The stand uses a hub, four legs, a rear post, two front clamps, two shelves and three spacers; its attachment to the booster still needs to be resolved.
 
 ## Part quantities
 
