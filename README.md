@@ -8,7 +8,7 @@ This is a 1:124-scale model of Starship S24/B7, the ship and booster that flew o
 
 The STL files in [model/](model/) are in millimeters. Move and orient each part on the build plate in Eiger. `joints/upper_seam_keys.stl` holds two keys; separate them before slicing.
 
-Print in Onyx or a similar filament, starting from Eiger's Onyx settings. Continuous fiber is optional. Print one grid fin and the booster section it mounts on first to check the fit.
+Print in Onyx or a similar filament, starting from Eiger's Onyx settings. Continuous fiber is optional. Print one grid fin and `booster/upper_top` first to check the fit.
 
 Print one of each file, except `booster/grid_fin` (4), `stand/leg` (4), `stand/front_clamp` (2), `stand/spacer` (3) and `joints/bored_key` (4).
 
@@ -16,7 +16,7 @@ Most ship parts and the covers come in two halves. Files ending in `black` are t
 
 ## Assembly
 
-1. Stack the booster from the bottom: `base_and_engines`, `lower_top`, `upper_bottom`, `upper_top`, with a `bored_key` at each joint.
+1. Stack the booster from the bottom: `base_and_engines`, `lower_top`, `upper_bottom`, `upper_top`, with a `bored_key` at each joint. The fourth `bored_key` goes in the nose.
 2. Fit the four grid fins to the top of the booster.
 3. Join each black half to its metal half: `tank_bottom`, `tank_top`, `nose` and the four flaps.
 4. Put the wires for the bottom flaps in before adding `tank_top`. The wires for the top flaps go through the base of the nose before the nose joins `tank_top`.
