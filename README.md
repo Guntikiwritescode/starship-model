@@ -10,13 +10,13 @@ The STL files in [model/](model/) are in millimeters. Move and orient each part 
 
 Print in Onyx or a similar filament, starting from Eiger's Onyx settings. Continuous fiber is optional. Print one grid fin and the booster section it mounts on first to check the fit.
 
-Print one of each file, except `booster/grid_fin` (4), `stand/leg` (4), `stand/front_clamp` (2), `stand/spacer` (3) and `joints/booster_key` (3).
+Print one of each file, except `booster/grid_fin` (4), `stand/leg` (4), `stand/front_clamp` (2), `stand/spacer` (3) and `joints/bored_key` (4).
 
-Most ship parts and the covers come in two halves. Files ending in `black` are the heat-shield side and files ending in `metal` are the steel side.
+Most ship parts and the covers come in two halves. Files ending in `black` are the heat-shield side and files ending in `metal` are the steel side. Paint the booster and the `metal` halves silver.
 
 ## Assembly
 
-1. Stack the booster from the bottom: `base_and_engines`, `lower_top`, `upper_bottom`, `upper_top`, with a `booster_key` at each joint.
+1. Stack the booster from the bottom: `base_and_engines`, `lower_top`, `upper_bottom`, `upper_top`, with a `bored_key` at each joint.
 2. Fit the four grid fins to the top of the booster.
 3. Join each black half to its metal half: `tank_bottom`, `tank_top`, `nose` and the four flaps.
 4. Put the wires for the bottom flaps in before adding `tank_top`. The wires for the top flaps go through the base of the nose before the nose joins `tank_top`.
